@@ -166,7 +166,7 @@ using namespace std::chrono;
         algoritmo(arr);
         auto fim = high_resolution_clock::now();
         duration<double> duracao = fim - inicio;
-    return duracao.count(); // segundos
+    return duracao.count(); 
 }
 
 int main() {
